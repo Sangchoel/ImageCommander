@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
@@ -35,10 +36,18 @@
 x64/
 Debug/
 Release/
+=======
+# Build artifacts
+x64/
+Debug/
+Release/
+*.obj
+>>>>>>> 58269ac (Initial commit: project reorganized)
 *.pdb
 *.log
 *.sdf
 *.ipch
+<<<<<<< HEAD
 .vs/
 *.user
 *.suo
@@ -47,4 +56,22 @@ Release/
 *.autosave
 *.pro.user
 *.moc
+=======
+
+# VS/Qt temp files
+.vs/
+*.user
+*.user.*
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Qt Designer / Qt Creator
+*.autosave
+*.pro.user
+*.qrc.depends
+*.moc
+
+# CMake / other builds
+>>>>>>> 58269ac (Initial commit: project reorganized)
 build*/
