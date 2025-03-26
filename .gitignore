@@ -30,3 +30,21 @@
 *.exe
 *.out
 *.app
+
+# ====== 추가: VS + Qt 빌드 파일 ======
+x64/
+Debug/
+Release/
+*.pdb
+*.log
+*.sdf
+*.ipch
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.autosave
+*.pro.user
+*.moc
+build*/
